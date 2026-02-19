@@ -13,7 +13,7 @@ public class connect {
             Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/AdvanceJava",
                 "root",
-                "3456346"
+                "111111"
             );
 
             if (con != null) {
