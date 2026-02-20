@@ -8,7 +8,7 @@ public class InsertData {
 	public static final String loadDriver="com.mysql.cj.jdbc.Driver";
 	public static final String url= "jdbc:mysql://localhost:3306/AdvanceJava";
 	public static final String username= "root";
-	public static final String password="8235618645";
+	public static final String password="*****";
 	
 	public static final String QUERY="insert into stud2 values(101,'Aman',20),(102,'Lakshya',22),(103,'Harsh',21)";
 	public static void main(String[] args) {
@@ -34,3 +34,4 @@ public class InsertData {
 	}
 
 }
+
