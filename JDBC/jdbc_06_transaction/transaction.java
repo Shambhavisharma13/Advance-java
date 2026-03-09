@@ -9,7 +9,7 @@ public class transaction{
     public static final String loadDriver = "com.mysql.cj.jdbc.Driver";
     public static final String url = "jdbc:mysql://localhost:3306/AdvanceJava";
     public static final String username = "root";
-    public static final String password = "8235618645";
+    public static final String password = "**********";
 // it check wheter a user exist or not
   public static final String CHECKUSER="select * from BankCustomer where accno=?";
   
@@ -117,4 +117,5 @@ public class transaction{
             e.printStackTrace();
         }
     }
+
 }
